@@ -1,0 +1,46 @@
+*{
+    font-family: 'Comic Sans MS';
+}
+
+body{
+    margin: 0 auto;
+    background-color: rgb(152, 152, 207);
+}
+
+.bt{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 50px;
+    background-color: rgb(42, 120, 221);
+    color: white;
+}
+
+.bt-cadastro{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(42, 120, 221);
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.bt:hover{
+    background-color: rgba(42, 120, 221, 0.452);
+}
+
+.bt-cadastro:hover{
+    background-color: rgba(42, 120, 221, 0.452);
+}
+
+.caixa-texto{
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 300px;
+}

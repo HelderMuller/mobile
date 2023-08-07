@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição</title>
+    <script>
+        var nome;
+        var email;
+        var num = 0;
+        function escrever() {
+        info = "Usuário número " + (++num) + "\n";
+        info += "Nome: " + nome + "\n";
+        info += "E-mail: " + email + "\n\n";
+    }
+
+        function escrever(quadro) {
+            info = "Usuário número " + (++num) + "\n";
+            info += "Nome: " + nome + "\n";
+            info += "E-mail: " + email + "\n\n";
+            quadro.value += info;
+    }
+
+        </script>
+</head>
+<body>
+    <body bgcolor="white">
+ <form>
+ <h1 align="center">Cadastro</h1>
+ <div align="center">
+ <p><input class="bt-cadastro" type=button value="Digitar Nome" onclick="nome=prompt('Seu Nome', '')">
+ <input class="bt-cadastro" type=button value="Digitar E-mail" onclick="email=prompt('Email', '')">
+ <input class="bt-cadastro" type=button value="Cadastrar" onclick="escrever(this.form.Area)"></p>
+ <p><textarea class="caixa-texto" rows=15 cols=40 name=Area></textarea></p>
+ <input class="bt" type="reset" value="Limpar">
+ <input class="bt" type="submit" value="Enviar">
+ </div>
+ </form>
+</body>
+</html>
