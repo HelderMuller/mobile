@@ -1,0 +1,33 @@
+*{
+    font-family: Comic Sans MS;
+}
+
+body{
+    background-color: rgb(41, 207, 207);
+}
+
+p{
+    text-align: center;
+}
+
+.turno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intervalos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tudo{
+    margin-top: 250px;
+}
