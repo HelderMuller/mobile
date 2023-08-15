@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap&#39');
+
+body{
+    text-align: center;
+    margin-top: 14%;
+    background-color: rgb(141, 41, 41);
+    font-family: 'Pacifico';
+    color: white;
+}
+
+#centimetro{
+    margin-left: -30px;
+}
+
+#kilo{
+    margin-left: 10px;
+}
+
+#imc{
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
